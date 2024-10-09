@@ -1,0 +1,267 @@
+@font-face {
+    font-family: spotifymix;
+    src: url(SpotifyMixUI-Regular-cc3b1de388efa4cbca6c75cebc24585e.woff2);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.left{ margin: 2px;
+    height: 100%;
+    width: 22%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    text-transform: capitalize;
+    color: white;
+    font-size: 15px;
+    height: 20%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(18,18,18);
+    display: flex;
+    gap: 10px;
+    line-height: 48px;
+}
+.up img{
+    margin:8px 8px ;
+    height: 20px;
+    width: 20px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.items{
+
+    font-family: Times New Roman;
+    line-height: 50px;
+}
+
+.down{ 
+    color: white;
+    margin: 5px;
+    height: 80%;
+    border-radius: 5px;
+    background-color: rgb(18,18,18);
+}
+.down-items1{
+   
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.down-items img{
+    height: 20px;
+}
+.down-items svg{
+   
+height: 20px;
+}
+.down-items{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    text-transform: capitalize;
+}
+.down-items2,.down-items3{
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: rgb(31,31,31);
+    height: 22%;
+    width: 99%;
+    padding: 20px;
+    line-height: 30px;
+    font-family: 'Times New Roman';
+}
+.down-items2  span,.down-items3 span{
+    font-size: 12px;
+}
+
+.down-items2 p,.down-items3 p{
+    text-transform: capitalize;
+    font-size: 10px;
+    padding: 2px 11.8px;
+    width: 100px;
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    font-weight: bold;
+}
+.right{
+    margin: 2px;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(26,26,26);
+}
+nav{
+    height: 8%;
+    width: 100%;
+    background-color: rgb(18,18,18);
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left svg{
+    height: 22px;
+    width: 28px;
+    color: white;
+    background-color: rgb(11,11,11);
+    border-radius: 20px;
+    margin:18px;
+    padding: 1px;
+   
+}
+.nav-right{
+    margin-top:12px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+.nav-right .nav-item{
+    margin-top: 15px;
+    color: rgb(129,129,129);
+}
+.nav-right button{
+    padding: 10px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.right1{
+    height: 8%;   
+    display: flex;    
+}
+.all-1{
+
+    color: white;
+    margin: 3px;
+    margin-left: 15px;
+    width: 40px;
+    background-color: rgb(50,50,50);
+    height: 30px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.all{
+    color: white;
+    margin: 3px;
+height: 30px;
+padding: 5px;
+    background-color: rgb(50,50,50);
+    width: 60px;
+    border-radius: 15px;
+}
+.right2{
+    margin-top: 20px;
+   
+    
+    /* height: 50%; */
+}
+.right2 h2{
+    margin-left: 15px;
+    color: rgb(129,129,129);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.artists img{
+    margin-top: 10px;
+    margin-left: 12px;
+   padding: 2px;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    object-fit: cover;
+}
+.names{
+    margin-left: 10px;
+    text-transform: capitalize;
+    /* color:rgb(143, 143, 143); */
+    color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 120px;
+    font-size: 16px;
+    font-weight: 450;
+    font-family: spotifymix;
+}
+.roles{
+    padding-top: 10px;
+    display: flex;
+    gap: 180px;
+    margin-left: 15px;
+    text-transform: capitalize;
+    color: rgb(129,129,129);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.right3{
+    margin-top: 25px;
+    height: 50%;
+    /* background-color: red; */
+}
+.right3 h2{
+    margin-left: 15px;
+    color: rgb(129,129,129);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.albums img{
+    margin-top: 10px;
+    margin-left: 12px;
+   padding: 2px;
+    height: 180px;
+    width: 180px;
+    /* border-radius: 90px; */
+}
+.album-names{
+    margin-left: 5px;
+   color: white;
+    /* color: rgb(129,129,129); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-size: 15px;
+    font-family: spotifymix;
+  /
+   
+}
+.album-roles{
+    padding-top: 12px;
+    display: flex;
+    gap: 150px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: rgb(129,129,129);
+    font-size: 10px;
+}
+
